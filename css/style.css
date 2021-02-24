@@ -1,0 +1,80 @@
+body {
+  min-height: calc(100vh - 100px);
+  margin: 0;
+  background: linear-gradient(40deg, #fc466b, #3f5efb);
+  background-position: 95% 90%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+a {
+  color: white;
+}
+.menu {
+  /* structure */
+  padding-left: 0;
+
+  /* presentation */
+  list-style-type: none;
+}
+.menu li {
+  display: inline-block;
+  padding: 0.5em 0.25em;
+}
+
+.standard-form label {
+  /* structure */
+  display: inline-block;
+  width: 8em;
+
+  /* presentation */
+  color: white;
+  text-align: right;
+}
+.standard-form ul {
+  /* structure */
+  padding-left: 0;
+
+  /* presentation */
+  list-style-type: none;
+}
+.standard-form ul li {
+  margin: 1em 0;
+}
+
+#address-book li i {
+  margin-left: 5px;
+}
+
+input,
+select,
+button {
+  background-color: transparent;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+button:hover,
+input,
+select {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input {
+  width: 200px;
+  padding: 0 10px;
+}
+[type="submit"],
+select {
+  width: auto;
+  padding: 0 10px;
+}
+option {
+  color: #8e54bf;
+}
